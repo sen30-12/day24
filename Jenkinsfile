@@ -1,4 +1,4 @@
-﻿namespace day24_1
+﻿namespace day242
 {
     public class Jenkinsfile
     {
