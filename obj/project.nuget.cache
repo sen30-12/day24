@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wiNLZmrsOI=",
+  "dgSpecHash": "11cCFbZWqhA=",
   "success": false,
-  "projectFilePath": "D:\\6\\trienkhaipm\\day24-1\\day24-1.csproj",
+  "projectFilePath": "D:\\6\\trienkhaipm\\day24-1\\day242.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
   ],

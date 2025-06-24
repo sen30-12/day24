@@ -105,9 +105,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\6\\trienkhaipm\\day24-1\\day24-1.csproj",
-      "projectName": "day24-1",
-      "projectPath": "D:\\6\\trienkhaipm\\day24-1\\day24-1.csproj",
+      "projectUniqueName": "D:\\6\\trienkhaipm\\day24-1\\day242.csproj",
+      "projectName": "day242",
+      "projectPath": "D:\\6\\trienkhaipm\\day24-1\\day242.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "D:\\6\\trienkhaipm\\day24-1\\obj\\",
       "projectStyle": "PackageReference",
