@@ -63,7 +63,7 @@ stage ('tests') {
             steps {
                 powershell '''
                
-                # Tạo website nếu chưa có
+              
                 Import-Module WebAdministration
                 if (-not (Test-Path IIS:\\Sites\\MySite)) {
                     New-Website -Name "day24_1" -Port 81 -PhysicalPath "C:\\inetpub\\wwwroot\\day24_1"
