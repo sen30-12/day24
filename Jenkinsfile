@@ -54,7 +54,7 @@ stage ('tests') {
 		steps {
 			echo 'public 2 runnig folder'
 		//iisreset /stop // stop iis de ghi de file 
-			bat 'xcopy "%WORKSPACE%\\publish" /E /Y /I /R "C:\\inetpub\\wwwroot\\day24"'
+			bat 'xcopy "%WORKSPACE%\\publish" /E /Y /I /R "C:\\inetpub\\wwwroot\\day24_1"'
  		}
 	}
 
@@ -66,7 +66,7 @@ stage ('tests') {
                 # Tạo website nếu chưa có
                 Import-Module WebAdministration
                 if (-not (Test-Path IIS:\\Sites\\MySite)) {
-                    New-Website -Name "MySite" -Port 81 -PhysicalPath "C:\\inetpub\\wwwroot\\day24"
+                    New-Website -Name "day24_1" -Port 81 -PhysicalPath "C:\\inetpub\\wwwroot\\day24_1"
                 }
                 '''
             }
